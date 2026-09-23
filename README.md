@@ -122,10 +122,15 @@ polo/
 │   ├── Esquematico.png         # Circuit schematic
 │   ├── PCB_Diseno.png          # PCB design
 │   └── Gerber_POLO_PCB.zip     # Gerber files for manufacturing
+├── 3d/
+│   ├── POLO.step               # Full CAD model (Fusion 360 / STEP)
+│   ├── POLO_impresion_orcaslicer.3mf  # OrcaSlicer print profile & plate layout
+│   ├── polo-stl.zip            # All STL parts
+│   └── stl/                    # Individual STL parts
 └── images/                     # Robot photos
 ```
 
-> **Note:** the Fusion 360 design and the STL files will be added soon.
+> **3D printing:** the CAD model, STL files and my OrcaSlicer print profile are in [`3d/`](3d/). **Please read the [printing notes and disclaimer](3d/README.md) first.**
 
 ### 🧰 Technologies
 
@@ -249,10 +254,15 @@ polo/
 │   ├── Esquematico.png         # Esquemático del circuito
 │   ├── PCB_Diseno.png          # Diseño de la PCB
 │   └── Gerber_POLO_PCB.zip     # Archivos Gerber para fabricación
+├── 3d/
+│   ├── POLO.step               # Modelo CAD completo (Fusion 360 / STEP)
+│   ├── POLO_impresion_orcaslicer.3mf  # Perfil de impresión OrcaSlicer y bandeja
+│   ├── polo-stl.zip            # Todas las piezas STL
+│   └── stl/                    # Piezas STL individuales
 └── images/                     # Fotos del robot
 ```
 
-> **Nota:** el diseño 3D en Fusion 360 y los STL se añadirán próximamente.
+> **Impresión 3D:** el modelo CAD, los STL y mi perfil de impresión de OrcaSlicer están en [`3d/`](3d/). **Lee primero las [notas de impresión y el aviso](3d/README.md).**
 
 ### 🧰 Tecnologías
 
